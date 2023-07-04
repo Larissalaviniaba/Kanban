@@ -1,0 +1,70 @@
+/* Font: Mais Jacarta Sans */
+@import url('https://fonts.googleapis.com/css2?family= Plus+Jakarta+Sans:wght@500;700;800 & display =swap');
+@import "./styleComponents.css";
+:root {
+  --main-color: #635FC7;
+  --main-color-hover: #A8A4FF;
+  --black: #000112;
+  --very-dark-grey: #20212C;
+  --dark-grey: #2B2C37;
+  --lines-dark: #3E3F4E;
+  --medium-grey: #828FA3;
+  --lines-light: #E4EBFA;
+  --light-grey: #F4F7FD;
+  --white: #FFFFFF;
+  --error: #EA5555;
+  --error-hover: #FF9898;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Mais Jacarta Sans', sans-serif;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  all: unset;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* cor do fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d5d9e2; /* cor do indicador de rolagem */
+  border-radius: 4px; /* borda arredondada para o indicador de rolagem */
+}
+
+/* Esconder a barra de rolagem por padrão */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #dee1ea; /* cor do indicador de rolagem quando o mouse passa sobre ela */
+}
+
+
+
+
+
+
+
+
+
+
+

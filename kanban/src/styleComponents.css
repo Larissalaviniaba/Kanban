@@ -1,0 +1,123 @@
+/* Buttons */
+.button_primary_l{
+
+    width: 255px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: 24px;
+    transition: 0.2s;
+  }
+  
+  .button_primary_l:hover{
+    background-color: var(--main-color-hover);
+  }
+  
+  .button_primary_s{
+  
+    width: 255px;
+    height: 40px;
+  
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: 24px;
+    transition: 0.2s;
+  }
+  
+  .button_primary_l:hover{
+    background-color: var(--main-color-hover);
+  }
+  
+  .button_secondary{
+    width: 255px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--main-color);
+    background-color: var(--light-grey);
+    border-radius: 24px;
+    transition: 0.2s;
+  }
+  .button_secondary:hover{
+    background-color: var(--lines-light)
+  }
+  
+  .button_delete{
+    width: 255px;
+    min-height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--error);
+    border-radius: 24px;
+    transition: 0.2s;
+  }
+  .button_delete:hover{
+    background-color: var(--error-hover)
+  }
+  /* Buttons */
+  
+  .subtask_checkbox{
+    all: unset;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 143, 163, 0.248914);
+    border-radius: 2px;
+    transition: 0.1s;
+  }
+  input[type="checkbox"]:checked{
+    width: 18px;
+    height: 18px;
+    background-image: url(./assets/checked.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: center ;
+    background-color: var(--main-color);
+    text-decoration-line: line-through;
+  }
+  
+  .box_subtask{
+    display: flex;
+    align-items: center;
+    width: 416px;
+    min-height: 40px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: var(--light-grey);
+    border-radius: 4px;
+  }
+  
+  .box_subtask:hover{
+    background-color: var(--lines-light)
+  }
+  
+  .box_subtask > label{
+    width: 350px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 13px;
+    text-decoration: none;
+    color: #000112;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  
+  input[type="checkbox"]:checked + label{
+    text-decoration-line: line-through;
+  }
